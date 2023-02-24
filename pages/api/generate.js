@@ -11,7 +11,7 @@ const openai = new OpenAIApi(configuration);
 
 const basePromptPrefix =
 `
-I want you to act as a song recommender. I will provide you with a song and you output 10 songs that are similar to the given song. Do not choose songs that are same name or artist. Do not write any explanations or other words, just reply with the list of 10 songs that are similar to the one I am provding.
+I want you to act as a song recommender. I will provide you with a song and you output 10 songs that are similar to the given song. Do not choose songs that are same name or artist. Do not write any explanations or other words, just reply with the list of 20 real songs that are similar to the one I am provding.
 
 My song is: 
 

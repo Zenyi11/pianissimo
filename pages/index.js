@@ -39,14 +39,14 @@ const callGenerateEndpoint = async () => {
       <div className="container">
         <div className="header">
           <div className="header-title">
-            <h1>Get song recommendations 👀</h1>
+            <h1>Get song recommendations 🎹</h1>
           </div>
           <div className="header-subtitle">
-            <h2>Just input the title of a song and let us do our magic</h2>
+            <h2>Just input the title, artist, and any extra details of a song so we can do our magic</h2>
           </div>
         </div>
         <div className="prompt-container">
-          <textarea placeholder="start typing here... title - author " className="prompt-box" value={userInput} onChange={onUserChangedText}
+          <textarea placeholder="start typing here... write the song name and any other details that might help it" className="prompt-box" value={userInput} onChange={onUserChangedText}
           />;
           <div className="promp-buttons">
             <a 

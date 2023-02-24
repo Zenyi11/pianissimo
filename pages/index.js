@@ -34,7 +34,7 @@ const callGenerateEndpoint = async () => {
   return (
     <div className="root">
       <Head>
-        <title>Find a song</title>
+        <title>pianissimo</title>
       </Head>
       <div className="container">
         <div className="header">

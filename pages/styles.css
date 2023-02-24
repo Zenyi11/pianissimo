@@ -5,7 +5,7 @@ body {
     padding: 0;
     font-family: 'Manrope', sans-serif;
     
-    background: linear-gradient(-45deg, #9f2a07, #2e2539, #185a72, #0a6a54);
+    background: linear-gradient(-45deg, #dd3a16, #2e2539, #185a72, #0a6a54);
     background-size: 400% 400%;
     animation: gradient 15s ease infinite;
 }
